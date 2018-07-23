@@ -1,3 +1,18 @@
+# specify language
 language: java
+jdk:
+- 1.8
 sudo: false
 script: mvn clean verify
+
+# configure which branches to run
+branches:
+  # whitelist
+  only:
+    - GitTravisCI
+    - master
+    - /^deploy-.*$/ # regex ok
+  # blacklist
+  except:
+    - TravisIntegration 
+    - TestRepo 
