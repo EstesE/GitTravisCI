@@ -2,4 +2,4 @@
 test
 
 
-![alt="test"](https://travis-ci.org/Mithrilhall/GitTravisCI.svg?branch=master)
+![alt="test"](https://travis-ci.org/kauraman14/GitTravisCI.svg?branch=master)
